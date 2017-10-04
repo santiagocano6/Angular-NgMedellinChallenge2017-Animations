@@ -1,0 +1,11 @@
+<div id="face" class="centered">
+    <img #imagen (@outstate.done)="elementGone($event, 'outRoundOutButton')" [@outstate]="faceState" [@facestate]="faceState" src="https://api.adorable.io/avatars/face/eyes5/nose7/mouth1/156">
+</div>
+
+<div id="buttons" class="centered">
+    <button (@outstate.done)="elementGone($event, 'outRotateButton')" [@outstate]="outRoundOutButton" (mouseover)="changeFaceState('round-out')" (mouseleave)="changeFaceState('simple')">Round out</button>
+    <button (@outstate.done)="elementGone($event, 'outHingeButton')" [@outstate]="outRotateButton" (mouseover)="changeFaceState('rotate')" (mouseleave)="changeFaceState('simple')">Rotate</button>
+    <button (@outstate.done)="elementGone($event, 'outCrazyTimeButton')" [@outstate]="outHingeButton" (mouseover)="changeFaceState('hinge')" (mouseleave)="changeFaceState('simple')">Hinge</button>
+    <button (@outstate.done)="elementGone($event, 'outByeButton')" [@outstate]="outCrazyTimeButton" (mouseover)="changeFaceState('crazy-time')" (mouseleave)="changeFaceState('simple')">Crazy time</button>
+    <button [@outstate]="outByeButton" (mouseover)="changeFaceState('gone')">Bye</button>
+</div>

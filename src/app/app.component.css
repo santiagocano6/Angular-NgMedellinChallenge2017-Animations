@@ -1,0 +1,60 @@
+.centered {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#face img {
+    width: 300px;
+    height: 300px;
+}
+
+#buttons {
+    margin-top: 200px;
+}
+
+#buttons button {
+    display: inline-block;
+    border: 3px solid #BABAC9;
+    color: #BABAC9;
+    min-width: 100px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background: none;
+}
+/*
+
+.round-out {
+    -webkit-transition: border-radius 1s;
+    transition: border-radius 1s;
+    border-radius: 50%;
+}
+
+.rotate {
+    -webkit-transition: transform 4s;
+    transition: transform 4s;
+
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.hinge {
+    animation-duration: 2s;
+	animation-name: hinge;
+}
+
+@keyframes hinge {
+	0% { transform: rotate(0); transform-origin: top left; }
+	20%, 60% { transform: rotate(80deg); transform-origin: top left; }
+	40% { transform: rotate(60deg); transform-origin: top left; }
+	80% { transform: rotate(60deg) translateY(0); opacity: 1; transform-origin: top left; }
+	100% { opacity: 0; }
+}
+
+.crazy-time {
+    -webkit-transition: transform 5s;
+    transition: transform 5s;
+
+    -webkit-transform: rotate(720deg) scaleX(0.5) scaleY(2);
+    transform: rotate(70deg) scaleX(0.5) scaleY(2);
+}*/
